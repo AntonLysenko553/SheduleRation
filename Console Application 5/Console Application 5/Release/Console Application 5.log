@@ -1,0 +1,4 @@
+﻿  Console Application 5.cpp
+C:\Users\Vsem\source\repos\Console Application 5\Console Application 5\Console Application 5.cpp(50,6): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 2 из "char [30]" в "LPWSTR"
+C:\Users\Vsem\source\repos\Console Application 5\Console Application 5\Console Application 5.cpp(50,28): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processthreadsapi.h(377,1): message : см. объявление "CreateProcessW"
